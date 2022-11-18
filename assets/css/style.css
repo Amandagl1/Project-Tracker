@@ -6,15 +6,26 @@ html {
     min-width: 576px;
 }
 
-/* Styling the modal button */
+
+/* ----- */
+/* Modal */
+/* ----- */
+/* Styling the create button inside the modal */
 .btn-primary {
+    background-color: rgb(1, 1, 201);
+    box-shadow:  0 0 4px 1px black;
+    border: none;
+}
+
+/* Styling the create button inside the modal */
+.btn-secondary {
     background-color: darkblue;
     box-shadow:  0 0 4px 1px black;
     border: none;
 }
 
 /* Styling the hover pseudo-class modal button */
-.btn-primary:hover {
+.btn:hover {
     background-color: rgb(0, 0, 203);
     border: none;
 }
@@ -24,6 +35,11 @@ html {
     position: absolute;
     right: 20px;
 }
+
+
+/* --------- */
+/* Jumbotron */
+/* --------- */
 /* Styles the jumbotron banner */
 .jumbotron {
     font-family: 'Playfair Display', serif;
@@ -38,6 +54,9 @@ header h1 {
     display: inline-block;
 }
 
+/* ----- */
+/* Clock */
+/* ----- */
 /* Styles the div that displays the current time and date */
 #clock {
     width: 50%;
@@ -46,4 +65,31 @@ header h1 {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 5px 2px darkblue;
+}
+
+/* ----------- */
+/* Save Button */
+/* ----------- */
+/* Styling the table */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Positioning save button in the middle of table row */
+.save-btn {
+    vertical-align: top;
+    padding: 15px;
+    background-color: lavender;
+    border: none;
+    box-shadow: 0px 0px 2px 2px rgb(166, 166, 255);
+}
+/* Styling the image inside button element */
+.sizing-img {
+    width: 20px;
+    justify-content: start;
+    border: none;
+}
+
+img {
+    vertical-align: sub;
 }

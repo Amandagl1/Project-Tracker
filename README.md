@@ -1,5 +1,13 @@
 # Project-Tracker
 
+# Description
+
+# Screenshots
+![Screenshot of Project Tracker Webpage](images/Project-tracker.png)
+
+# Deployed Application
+Check out my deployed application [here](https://amandagl1.github.io/Project-Tracker/)!
+
 In this project, you will work with others to create a project tracker application using Bootstrap, jQuery, jQueryUI, Moment, and Google Fonts. Break up these phases amongst members of your team.
 
 ## Instructions
